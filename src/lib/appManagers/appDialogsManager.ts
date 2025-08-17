@@ -2639,7 +2639,7 @@ export class AppDialogsManager {
       onListLengthChange();
     });
 
-    bottom.append(section.container);
+    // bottom.append(section.container);
   };
 
   private verifyPeerIdForContacts = async(peerId: PeerId) => {
